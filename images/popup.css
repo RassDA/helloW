@@ -1,0 +1,95 @@
+* {
+    margin:  0;
+    padding:  0;
+    color: inherit;
+    font-size: inherit;
+}
+ 
+body {
+    background: #F3F3FF;
+}
+ 
+#main {
+    font-size: 13px;
+    color: #456;
+    width:500px;
+    margin: 5px 20px 5px 5px;
+}
+ 
+.clear {
+    clear:both;
+}
+ 
+.hr {
+    clear:both;
+    width: 100%;
+    display: block;
+    background: #9AB;
+    height: 1px;
+    border-collapse:collapse;
+}
+ 
+.jobs .hr:nth-last-child(1)
+{
+    background: none;
+}
+ 
+ 
+.jobs {
+    border: 2px solid #F3F3FF;
+    border-radius: 8px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D0D7E4), to(#B3BBD5));
+    -webkit-box-shadow: 0px 0px 5px #888F99;
+    margin: 0px 0px 10px 0px;
+    min-height: 20px;
+    padding: 4px 4px;
+}
+ 
+.jobs a {
+    text-decoration: none;
+    display: block;
+    width: 482px;
+    height: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left:5px;
+    margin-right: -16px;
+    float: left;
+    overflow: hidden;
+}
+ 
+.jobs a.todelete {
+    background-color: #F7DDD9;
+}
+ 
+.jobs a:hover {
+    background-color: #D9DDF7;
+}
+ 
+.jobs a.new {
+    padding-left:16px;
+    width: 471px;
+    background-image: url("icon_new.png");
+    background-repeat: no-repeat;
+}
+ 
+.jobs a.clicked {
+    color: #889;
+}
+ 
+.jobs a.deleted {
+    color: #99A;
+    text-decoration:line-through;
+}
+ 
+.jobs a.delete {
+    margin:  0;
+    padding:  0;
+    display: block;
+    width:16px;
+    height:14px;
+    border: none;
+    background: url("icon_delete.png") no-repeat;
+    padding:  0;
+    margin:  0;
+} 

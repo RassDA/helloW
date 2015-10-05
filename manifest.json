@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Infonum",
+  "author": "Dmitry Rassyhaev",
+  "description": "Infonum SitePages",
+  "version": "1.0",
+
+  "browser_action": {
+  "default_title": "Infonum Ext",    
+  "default_icon": "images/infonum.png",
+  "default_popup": "popup.html"
+  },
+  
+  "permissions": [
+   "tabs", 
+   "activeTab",
+    "http://checkin.infonum.ru/*"
+  ],
+  
+  "options_page": "options.html", // Страница настроек
+  "background_page": "background.html" // Всплывающее окно
+} 
+
